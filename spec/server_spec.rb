@@ -4,7 +4,7 @@ require 'spec_helper'
 describe 'sauceconnect::server' do
 
   let :chef_run do
-    runner = ChefSpec::Runner.new(
+    runner = ChefSpec::SoloRunner.new(
       :platform => 'centos',
       :version => '6.4'
     )
