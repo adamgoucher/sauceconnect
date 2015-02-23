@@ -1,5 +1,5 @@
 language: ruby
-bundler_args: --without kitchen_vagrant
+bundler_args: "--without kitchen_vagrant"
 rvm:
 - 2.0.0
 before_install:
@@ -43,6 +43,7 @@ env:
   - secure: CfHE1qF7DEz6CCa1yY7jCmyIhMRMmxJFlzQWgCTE9RNOYsGM9lhsazxTEKXRdlu3XG1f4CNMNepSisz+zKSulZ0Cjktbd/EG7plU2Mym+8MrXQsWV9HTKTODJLwDKYqx2EC5bX6zx8e0iiXM2aB7ugBYh+jypFfg9jUqy/eDfRE=
   - secure: Yqn6pPbKC066E/OUF0Ow/qktFzkPDv45+Zi3MRvEv7YMWb9U7XK9qt9EGKtl220AFKXGNlvPIMGspJvPVZyIkVtgViH9TWguy1O4ktz89kKzNoRYkqIP7BJbUPtzPPg2ngGztLp/VlMqjxvg6mPuK5+RYU/Y5OEmpl3SmuJWnu8=
   - secure: frohh6KGMLPxl46W2B8IXPJhTrAGMl41dwit3/s3aSbWTyZnvUxgzh4jNV+A0KiyTFpWGvkFfJK+Qa5+ME+6YrQT7rGYLlg/w/Ra7OJKAMiVE8usoiSo5MkPTVVBiL+ZWQBzhzcFtnRsiBLXrEIZreC7Nlj+aFSGJeWQerZJaMk=
+  - secure: G9lvgbBmqEi+VKl294ggTXrWJkR0Fm+iQ8eq7K5aroH+LN9T761VQX6zmOuqacEkhCg0wU8YjidwQajWU1R2d3mj65UzL61t2veyxWnte62P7wE4cSORZ4+saLCfPDxBEFLr7JKI8xtjG+vb70SWj0rq6dd/gTQ3ByHTfCjBbrk=
   matrix:
   - KITCHEN_INSTANCE='server-centos-58'
   - KITCHEN_INSTANCE='server-centos-65'
