@@ -13,7 +13,7 @@ DigitalOcean you need at least:
 
 ```
 travis encrypt DIGITAL_OCEAN_CLIENT_ID=whatevs
-travis encrypt DIGITAL_OCEAN_API_KEY=whatevs
+travis encrypt DIGITAL_OCEAN_ACCESS_TOKEN=whatevs
 travis encrypt DIGITAL_OCEAN_SSH_KEY_IDS=123456  # read kitchen-digitalocean's README to find out how to get this
 ```
 
