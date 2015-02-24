@@ -14,6 +14,7 @@ after_script:
 env:
   global:
   - KITCHEN_YAML=.kitchen.cloud.yml
+  - DIGITAL_OCEAN_REGION=nyc3
   - DIGITAL_OCEAN_SSH_KEY_PATH=~/.ssh/id_do.pem
   - secure: VDanWUqwWpCjYDfE6RUxZLuTQFaJ4wLopcq0p5oDrxQ3ACGnhsMPV2ijGujxmkZSa5/pWul+m8KKZARwVBktUp6CqnzTw683WBwn5+XKTo/ksuK0kYUwWKfPNuAHglvYjrs0trdHXwzaxBtLAhp1105h2PajAe/QRjQwWDDAOD8=
   - secure: DfNrqj4SNqJCk6uO7Z7i0GSlxLNdy5nKYU8T8l7Qj703jvRbk8/HalSeGLRPhg8WAUBwjcRJtjfCVE0TBlhcqKTXtQ2OGjJTRN8lqY2deM8P5/2qsbDN+ZFQLxydQ2ZzpB032r9nF4A//s2mIgGlpVUq8uYa1y4ztGzQCnju/7A=
