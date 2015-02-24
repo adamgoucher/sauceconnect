@@ -2,7 +2,6 @@ require 'chef/config'
 require 'spec_helper'
 
 describe 'sauceconnect::server' do
-
   let :chef_run do
     runner = ChefSpec::SoloRunner.new(
       :platform => 'centos',
@@ -15,7 +14,6 @@ describe 'sauceconnect::server' do
   end
 
   context 'setting up the system' do
-
     it 'installs unzip to unpack the zipfile' do
       expect(chef_run).to install_package('unzip')
     end
