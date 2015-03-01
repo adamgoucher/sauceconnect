@@ -6,4 +6,4 @@ group :integration do
 end
 
 # Temporary, until Java 1.8 support is released
-cookbook 'java', git: "https://github.com/agileorbit-cookbooks/java.git"
+cookbook 'java', :git => 'https://github.com/agileorbit-cookbooks/java.git'
